@@ -10,8 +10,8 @@
  * @returns {string} The greeting string with uppercase name interpolated
  */
 export function nameTag(name) {
-  const nameUpper = name.toUpperCase()
-  return `Hello, my name is ${nameUpper}!`
+  // const nameUpper = name.toUpperCase()
+  return `Hello, my name is ${name.toUpperCase()}!`
 }
 
 // const myname = 'Whatever'
