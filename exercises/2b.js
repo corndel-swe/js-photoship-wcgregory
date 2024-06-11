@@ -10,10 +10,10 @@
  * @param {number[]} arr - An array of KB
  * @returns {Array} The array in MB
  */
-export function convertFilesizes(arr, sizesInMB) {
+export function convertFilesizes(arr) {
   //const sizeInMB = arr / 1000
   // const sizesInMB = arr.map(num => num / 1000)
-  return sizesInMB = arr.map(num => num / 1000)
+  return arr.map(num => num / 1000)
 }
 
 // const filesSizeMB = numbers.map(convertFilesizes)
