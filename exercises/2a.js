@@ -10,7 +10,8 @@
  */
 export function arrayRotate(arr) {
   // let tempItem = arr[arr.length - 1]
-  arr.unshift(arr[arr.length - 1])
-  arr.pop()
+  // arr.unshift(arr[arr.length - 1])
+  // arr.pop()
+  arr.unshift(arr.pop())
   return arr
 }
