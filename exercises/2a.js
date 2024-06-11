@@ -9,8 +9,8 @@
  * @returns {Array} The array with the last element at the front
  */
 export function arrayRotate(arr) {
-  let tempItem = arr[arr.length - 1]
-  arr.unshift(tempItem)
+  // let tempItem = arr[arr.length - 1]
+  arr.unshift(arr[arr.length - 1])
   arr.pop()
   return arr
 }
