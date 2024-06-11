@@ -14,6 +14,6 @@ export function nameTag(name) {
   return `Hello, my name is ${nameUpper}!`
 }
 
-// const myname = 'Wayne'
+// const myname = 'Whatever'
 // const greeting = nameTag(myname)
 // console.log(greeting)
