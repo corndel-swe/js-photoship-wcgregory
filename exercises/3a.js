@@ -11,10 +11,9 @@
  */
 export function nameTag(name) {
   const nameUpper = name.toUpperCase()
-  return 'Hello, my name is ${nameUpper}'
-  // return greeting
+  return `Hello, my name is ${nameUpper}!`
 }
 
-const myname = 'Wayne'
-greeting = nameTag(myname)
-console.log(greeting)
+// const myname = 'Wayne'
+// const greeting = nameTag(myname)
+// console.log(greeting)
