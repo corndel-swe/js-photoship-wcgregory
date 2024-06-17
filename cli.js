@@ -70,4 +70,18 @@ program
   .description('RGB to BRG')
   .action(filename => convertRGB(filename, pixels.rotate))
 
+// Flip reverse
+program
+  .command('flip-reverse <filename>')
+  .description('RGB to BGR')
+  .action(filename => convertRGB(filename, pixels.flipReverse))
+
+// Flip reverse with adjust brightness
+program
+  .command('flip-reverse-and-brighten <filename> <brightness>')
+  .description('Flip in reverse and adjust the brightness')
+  .action((filename, brightness) =>
+    convertRGB(filename, rgb => pixels.flipReverseAndBrighten(rgb, brightness))
+  )
+
 program.parse(process.argv)

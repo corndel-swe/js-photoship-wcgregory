@@ -11,5 +11,10 @@
  * @returns {Array} The array in MB
  */
 export function convertFilesizes(arr) {
-  // TODO
+  //const sizeInMB = arr / 1000
+  // const sizesInMB = arr.map(num => num / 1000)
+  return arr.map(num => num / 1000)
 }
+
+// const filesSizeMB = numbers.map(convertFilesizes)
+// console.log(filesSizeMB)
